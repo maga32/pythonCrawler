@@ -1,0 +1,30 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pyo
+
+# Virtual Environment
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# ide 설정 파일
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# 크롬/드라이버 바이너리 (용량 큼, 일반적으로 제외)
+chrome-mac-arm64/
+chromedriver-mac-arm64/
+
+# 크롤링 결과물
+output/
+
+# 기타 로그 파일
+*.log
